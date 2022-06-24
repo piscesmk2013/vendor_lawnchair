@@ -9,7 +9,7 @@
 
 **2. Import vendor/lawnchair/lawnchair.mk**
 
-`$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)`
+`$(call inherit-product-if-exists, vendor/lawnchair/product.mk)`
 
 **3. Remove existing launcher from the build**
 
